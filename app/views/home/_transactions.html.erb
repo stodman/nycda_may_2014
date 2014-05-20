@@ -1,0 +1,11 @@
+<h4>Transactions</h4>
+<% things.each do |trans| %>
+  <p>
+    <b>
+      <%= trans[:amount] %>
+    </b>
+    <small>
+      <%= trans[:date] %>
+    </small>
+  </p>
+<% end %>
