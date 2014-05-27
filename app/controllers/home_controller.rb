@@ -1,13 +1,14 @@
 class HomeController < ApplicationController
 
-  def index
-    @transactions = [
-      {amount: 23, date: Time.now},
-      {amount: 9393, date: Time.now - 2.days}
-    ]
+  def about
+
   end
 
-  def show
+  def contact
+    # looks for app/views/home/contact.html.erb
+  end
 
+  def team
+    # looks for app/views/home/team.html.erb
   end
 end

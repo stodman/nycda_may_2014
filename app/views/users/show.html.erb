@@ -1,0 +1,11 @@
+<h1>
+  Profile Page for
+  <%= @user.id %>
+</h1>
+<hr>
+<p>
+  <%= @user.first_name %>
+</p>
+<p>
+  <%= link_to "Delete user?", user_path(@user), method: :delete %>
+</p>
